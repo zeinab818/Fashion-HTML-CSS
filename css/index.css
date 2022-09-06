@@ -1,0 +1,210 @@
+.header{
+    min-height: 100vh;
+    background-image: url('../imags/2.jpg');
+    background-size: cover;
+    position: relative;
+}
+.header .logo{
+    background-color:rgb(210, 205, 205);
+}
+.header .logo img{
+    width: 100px;
+    height: 120px;
+    padding-left: 30px;
+   
+}
+.container{
+ display: flex;
+    position: relative;
+    position: fixed;
+    width: 100%;
+   
+    margin-left: auto;
+    margin-right: auto;
+     
+   
+
+}
+@media(min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+@media(min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+.header{
+    padding: 20px;
+
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .container .link{
+    list-style: none;
+   
+    /* text-align: right; */
+    /* padding: 0; */
+    width: 100%;
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 5px;
+}
+.header .container .link li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+.container .link li a{
+    color: rgb(18, 18, 67);
+    text-decoration: none
+    ;
+}
+.container .link li a:hover{
+    color: rgb(85, 20, 33);
+    font-size: 35px;
+}
+.header .text{
+    text-align: center;
+    padding-top: 200px;
+
+   
+   
+}
+.header .text .intro h1{
+    color: rgb(18, 18, 67);
+}
+.clothes{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.clothes h1{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(18, 18, 67);
+    font-size: 100px;
+}
+.clothes .container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr)) ;
+    grid-gap: 20px;
+}
+
+.clothes .container1 .type img{
+    width: 200px;
+    height: 250px;
+}
+.clothes .container1 .type{
+    padding: 20px;
+    text-align: center;
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .t h1{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(18, 18, 67);
+    font-size: 100px;
+}
+.about .t p{
+    text-align: center;
+    font-size: 50px ;
+}
+.about .container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr)) ;
+    grid-gap: 20px;
+}
+.about .container1 .type{
+    padding: 20px;
+    text-align: center;
+}
+.about .container1 .type button{
+    width: 290px;
+    color: rgb(18, 18, 67);
+    
+}
+.about .container1 .type h1{
+    color: rgb(18, 18, 67);
+}
+.contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+    width: 100%;
+}
+.contact  h1{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(18, 18, 67);
+    font-size: 100px;
+}
+.contact p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    
+}
+
+.contact .info{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
+.contact .info .label{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(18, 18, 67);
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+.contact .info .links{
+    display: block;
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--main-color);
+     text-decoration: none;
+}
+.contact .info .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+.contact .info .social i{
+    margin-left: 10px;
+    color: rgb(36, 30, 60);;
+}
+.footer{
+   background-color: rgb(18, 18, 67);
+   color: white;
+   
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer span{
+    font-weight: bold;
+   
+    font-size: 30px;
+    
+ 
+}
+
+
